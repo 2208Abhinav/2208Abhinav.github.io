@@ -1,4 +1,4 @@
-##FUCK Others we are nerds - Ab
+FUCK Others we are nerds - Ab
 
 ## Welcome to GitHub Pages
 
