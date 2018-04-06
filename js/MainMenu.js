@@ -20,17 +20,17 @@ SpaceHipster.MainMenu.prototype = {
     //start game text
     var text = "Getting bored is good for me!!\n";
     text += "Instructions:\n";
-    text += "Blue rover will move in the direction of your touch\n";
-    text += "Collect white coins\n";
-    text += "Stay away from rocks (those who look like cookies 😊😊)\n"
-    text += "Tap to begin";
+    text += "1)Blue rover will move in the direction of your touch\n";
+    text += "2)Collect white coins\n";
+    text += "3)Stay away from rocks (those who look like cookies 😊😊)\n"
+    text += "4)Tap to begin";
     var style = { font: "30px Arial", fill: "#fff", align: "center" };
     var t = this.game.add.text(this.game.width/2, this.game.height/2, text, style);
     t.anchor.set(0.5);
 
     //highest score
-    text = "Highest score: "+this.highestScore;
-    style = { font: "15px Arial", fill: "#fff", align: "center" };
+    text = "\n\n\n\nHighest score: "+this.highestScore;
+    style = { font: "30px Arial", fill: "#fff", align: "center" };
   
     var h = this.game.add.text(this.game.width/2, this.game.height/2 + 50, text, style);
     h.anchor.set(0.5);
