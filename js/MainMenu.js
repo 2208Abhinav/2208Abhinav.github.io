@@ -29,7 +29,7 @@ SpaceHipster.MainMenu.prototype = {
     t.anchor.set(0.5);
 
     //highest score
-    text = "\n\n\n\nHighest score: "+this.highestScore;
+    text = "\n\n\n\n\n\n\nHighest score: "+this.highestScore;
     style = { font: "30px Arial", fill: "#fff", align: "center" };
   
     var h = this.game.add.text(this.game.width/2, this.game.height/2 + 50, text, style);
