@@ -18,8 +18,12 @@ SpaceHipster.MainMenu.prototype = {
     this.background.autoScroll(-20, 0);
 
     //start game text
-    var text = "Tap to begin";
-    text += "\nAB got bored";
+    var text = "Getting bored is good for me!!\n";
+    text += "Instructions:\n";
+    text += "Blue rover will move in the direction of your touch\n";
+    text += "Collect white coins\n";
+    text += "Stay away from rocks (those who look like cookies 😊😊)\n"
+    text += "Tap to begin";
     var style = { font: "30px Arial", fill: "#fff", align: "center" };
     var t = this.game.add.text(this.game.width/2, this.game.height/2, text, style);
     t.anchor.set(0.5);
